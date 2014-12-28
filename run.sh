@@ -16,3 +16,4 @@ blade  query --deps "$1" --output-to-dot $tmpfile
 dot -Tpng $tmpfile -o /usr/share/nginx/html/out.png
 rm -f $tmpfile
 #/home/liwenxiang/bin/blade test ... --verbose -j1
+echo 'check http://192.168.56.101/out.png'

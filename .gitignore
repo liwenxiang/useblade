@@ -1,3 +1,7 @@
+blade-bin
+build64_release/
+.*
+
 # Compiled Object files
 *.slo
 *.lo
